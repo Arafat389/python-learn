@@ -1,0 +1,9 @@
+string="programming"
+print(string[1:5])
+print(string[1:-5])
+print(string[5])
+print(string[:5])
+print(string[-5])
+print(string[:-5])
+print(string[1:10:2])
+print(string[1:10:3])

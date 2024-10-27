@@ -3,7 +3,7 @@
 # 1 intiger
 number=30
 print(number)
-
+print(type(number))
 # 2 floating
 
 number2=50.43
