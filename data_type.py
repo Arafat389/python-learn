@@ -1,3 +1,4 @@
+
 #numeric  data type
 # 1 intiger
 number=30
@@ -8,7 +9,7 @@ print(number)
 number2=50.43
 print(number2)
 
-# bollian / complex_number
+# complex_number
 
 complex_number=3+10j
 print(complex_number)
@@ -76,3 +77,40 @@ print(*number)
 number=range(10) # by defolt 0 theke soro hobe and 9 porjonto cholbe
 print(*number)
 
+# Boolean data type
+
+isBangladesh=True
+print(isBangladesh)
+
+# none data type
+name=None
+print(name)
+
+#mapping data type
+#dictronary data type (dict data type)
+person={
+    'First_name': 'Arafat' ,
+    'Last_name': 'Islam' ,
+    'Age': 25 ,
+    'isBangladesh': True
+
+ }
+
+print(person)
+print(person['Last_name'])
+print(person['isBangladesh'])
+
+
+#set data type
+
+number={1,2,3,4,5}
+print(number)
+number1={1,2,3,2,4,5,3}
+print(number1)
+
+#frozenset (immutable)
+number=frozenset([1,2,3,4,5,6])
+print(number)
+
+number1=frozenset([1,2,1,5,4,3,4,5,6])
+print(number1)
